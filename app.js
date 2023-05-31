@@ -1,5 +1,4 @@
 // elements
-const displayMsgEL = document.querySelector('p')
 const inputEL = document.querySelector('input')
 const buttonEL = document.querySelector('button')
 const encryptionDataListEL = document.querySelector('ul')
