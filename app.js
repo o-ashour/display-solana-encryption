@@ -37,7 +37,6 @@ async function displayEncryptedMsg(){
   encryptionDataHeaderEL.innerText = `The Solana Encryption for '${inputEL.value}' is: `;
 
   for (const key in encryptedData) {
-    console.log(`${key}: ${encryptedData[key]}`);
     const liEL = document.createElement('li');
     encryptionDataListEL.appendChild(liEL).innerText = `${key}: ${encryptedData[key]}`;
   }
